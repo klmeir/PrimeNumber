@@ -1,4 +1,5 @@
 # Prime Numbers API with .NET
+It is decided to take the prime number algorithm and implement a robust solution
 
 # The main architectural patterns and styles that guide this solution are
 
@@ -25,6 +26,7 @@ Solution for VisualStudio(.sln) composed of the following folders :
 - Application : Domain Services Orchestration Layer; Ports, Commands, Queries, Handlers
 - Infrastructure : Adapters
 - Domain : Entities, Value Objects, Ports, Domain Services, Aggregates
+- Domain.Tests: Unit Tests for Domain Services. Only 3 unit tests are performed, so multiple inputs are added to ensure correct operation.
 - app : React application to consume api
 
 # Screenshots
