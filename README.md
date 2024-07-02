@@ -47,6 +47,9 @@ Solution for VisualStudio(.sln) composed of the following folders :
 ## 6. Client in react running
 <img src="https://github.com/klmeir/PrimeNumber/blob/master/docs/GUI.png" />
 
+## 6. Visual studio solution structure
+<img src="https://github.com/klmeir/PrimeNumber/blob/master/docs/Solution.png" />
+
 ## Build & Run
 
 # Visual Studio 2022
