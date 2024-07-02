@@ -34,7 +34,16 @@ namespace PrimeNumber.Api
                 builder.Services.AddDbContext<DataContext>(opts =>
                 {
                     opts.UseSqlServer(config.GetConnectionString("db"));
-                });            
+                });
+
+                builder.Services.AddCors(options =>
+                {
+                    options.AddPolicy("CorsPolicy",
+                        builder => builder
+                            .AllowAnyOrigin()
+                            .AllowAnyMethod()
+                            .AllowAnyHeader());
+                });
 
                 // Add services to the container.
                 builder.Services.AddAuthorization();
@@ -47,6 +56,8 @@ namespace PrimeNumber.Api
                 builder.Services.AddMediatR(Assembly.Load("PrimeNumber.Application"), typeof(Program).Assembly);                
 
                 var app = builder.Build();
+
+                app.UseCors("CorsPolicy");
 
                 app.UseSerilogRequestLogging();
 
