@@ -35,19 +35,16 @@ Solution for VisualStudio(.sln) composed of the following folders :
 ## 2. Web Api running
 <img src="https://github.com/klmeir/PrimeNumber/blob/master/docs/Swagger.png" />
 
-## 3. Displaying the message in the queue with Service Bus Explorer
-<img src="https://github.com/klmeir/NetMessaging/blob/main/docs/3.png" />
-
-## 4. Execution of unit tests to the domain.
+## 3. Execution of unit tests to the domain.
 <img src="https://github.com/klmeir/PrimeNumber/blob/master/docs/Tests.png" />
 
-## 5. Query of data registered in sql server
+## 4. Query of data registered in sql server
 <img src="https://github.com/klmeir/PrimeNumber/blob/master/docs/Sql.png" />
 
-## 6. Generated database script
+## 5. Generated database script
 <img src="https://github.com/klmeir/PrimeNumber/blob/master/docs/Script.png" />
 
-## 7. Client in react running
+## 6. Client in react running
 <img src="https://github.com/klmeir/PrimeNumber/blob/master/docs/GUI.png" />
 
 ## Build & Run
